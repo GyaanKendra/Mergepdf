@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Merge PDF files online with ease. Fast and simple PDF merging tool.">
+    <meta name="keywords" content="PDF merge, online PDF merger, combine PDFs, free PDF tool, PDF editor">
+    <title>Advanced PDF Merger - Combine Multiple PDFs Easily</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">PDF Merge Pro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Merge Your PDFs in Just a Few Clicks</h2>
+        <p>Combine multiple PDF files effortlessly and download the merged document!</p>
+    </section>
+
+    <section class="upload-container">
+        <div class="upload-box">
+            <input type="file" id="pdfInput" class="input-file" multiple accept="application/pdf">
+            <button onclick="mergePDFs()" class="merge-btn">Merge PDFs</button>
+        </div>
+    </section>
+
+    <section class="output-container">
+        <div class="output-box">
+            <a id="downloadLink" href="#" download>Download Merged PDF</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PDF Merge Pro. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
